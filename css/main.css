@@ -360,6 +360,22 @@ ul {
     line-height: 1.5;
     font-weight: 300; }
 
+footer {
+  color: #fff;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 50px 0;
+  background: #222; }
+  footer a {
+    margin-bottom: 15px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700; }
+  footer span {
+    font-size: 18px; }
+  footer p {
+    margin-bottom: 10px; }
+
 .quote {
   padding: 100px 0 0 0; }
   .quote .quote-box {
@@ -543,7 +559,8 @@ time {
     .prize .info p {
       color: #646464;
       font-weight: 300;
-      line-height: 1.5; }
+      line-height: 1.5;
+      font-size: 14px; }
     .prize .info i {
       font-size: 25px;
       padding: 12px 20px;
@@ -630,21 +647,48 @@ time {
     .mini-bar-labs .social p {
       font-size: 14px; }
 
-footer {
-  color: #fff;
-  font-weight: 300;
-  font-size: 14px;
-  padding: 50px 0;
-  background: #222; }
-  footer a {
-    margin-bottom: 15px;
-    display: inline-block;
+#startup .top {
+  background-image: url(../img/startup-top-bg.jpg); }
+
+.form {
+  padding: 100px 0 0 0; }
+  .form h3 {
+    margin-bottom: 50px;
+    font-size: 27px; }
+  .form h4 {
+    margin-bottom: 50px;
     font-size: 18px;
-    font-weight: 700; }
-  footer span {
-    font-size: 18px; }
-  footer p {
-    margin-bottom: 10px; }
+    color: #646464; }
+
+.cta-big .hover-bg:hover {
+  background: none; }
+
+.criteria {
+  padding: 100px 0 0 0; }
+  .criteria h2 {
+    margin-bottom: 50px; }
+  .criteria li {
+    margin-bottom: 25px;
+    line-height: 1.9;
+    color: #646464;
+    font-weight: 300;
+    list-style-image: url(../img/checked.png); }
+  .criteria .info {
+    margin-top: -20px; }
+    .criteria .info p {
+      font-size: 14px;
+      color: #646464;
+      font-weight: 300;
+      line-height: 1.5; }
+    .criteria .info i {
+      font-size: 25px;
+      padding: 12px 20px;
+      border-radius: 50%;
+      border: 1px solid #646464;
+      display: inline-block;
+      margin-bottom: 25px;
+      color: #646464;
+      opacity: .3; }
 
 .cta-medium {
   background: #005ea5;
@@ -671,3 +715,10 @@ footer {
     background: rgba(255, 255, 255, 0.1);
     color: #fff;
     border-color: rgba(255, 255, 255, 0.1); }
+
+.logo {
+  position: absolute;
+  top: 27px;
+  left: 27px; }
+  .logo img {
+    max-width: 60px; }
